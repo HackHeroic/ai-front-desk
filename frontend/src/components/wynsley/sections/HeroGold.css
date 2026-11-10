@@ -1,0 +1,6 @@
+@media (max-width:940px){.hero-row{justify-content:flex-start !important}.hero-phone{margin:8px auto 0}.hero-scrim{background:linear-gradient(180deg,rgba(46,24,66,.55) 0%,rgba(46,24,66,.5) 45%,rgba(46,24,66,.2) 75%,transparent 100%) !important}}
+.herogo-ho1:hover{box-shadow:0 16px 44px rgba(255,107,91,.6) !important;color:#1D1B19 !important}
+.herogo-ac2:active{transform:scale(.98) !important}
+.herogo-ho3:hover{color:#FFE1D4 !important}
+.herogo-moon{--hg-wide:0}
+@media (min-width:1000px){.herogo-moon{--hg-wide:1}}
