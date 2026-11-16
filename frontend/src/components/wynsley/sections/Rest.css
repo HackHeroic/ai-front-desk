@@ -1,0 +1,9 @@
+@media (max-width:900px){.stk{max-width:none !important;flex-basis:100% !important}}@media (max-width:520px){.cf-grid{grid-template-columns:minmax(0,1fr) !important}}
+.rest-ho1:hover{color:#1D1B19 !important;box-shadow:0 12px 30px rgba(255,107,91,.35) !important}
+.rest-ho2:hover{color:#FF9F6B !important}
+.rest-fo3:focus{border-color:#1D1B19 !important}
+.rest-fo4:focus{border-color:#1D1B19 !important}
+.rest-fo5:focus{border-color:#1D1B19 !important}
+.rest-ho6:hover{background:#000 !important}
+.rest-ho7:hover{text-decoration:underline !important}
+.rest-ho8:hover{text-decoration:underline !important}
