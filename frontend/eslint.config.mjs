@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Product prototype, carried over unchanged from Claude Design (vanilla JS).
+    "src/prototype/wy-proto.js",
   ]),
 ]);
 
