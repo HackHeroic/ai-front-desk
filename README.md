@@ -2,6 +2,8 @@
 
 > A growth partner with its own software inside, for small US real-estate firms that sell, rent and manage homes. Six modules run on one system, around one record per person, in each firm's own name.
 
+**Live at [www.wynsley.com](https://www.wynsley.com)** (landing page) and [www.wynsley.com/prototype](https://www.wynsley.com/prototype) (clickable product prototype), while the software is being tested.
+
 *The repository is still called `ai-front-desk`, the working title from when the plan was only an AI front desk. The AI desk is now one of six modules.*
 
 ## The problem
@@ -112,6 +114,14 @@ Requires Node.js 20 or later.
     npm install
     PORT=4000 npm run start:dev
 
+## Deployment
+
+The frontend is a static export: `npm run build` writes the whole site to `frontend/out/`. Cloudflare serves that folder as the Worker `wynsley` on `wynsley.com` and `www.wynsley.com`, configured in `frontend/wrangler.jsonc`.
+
+    cd frontend
+    npm run build
+    npx wrangler@4 deploy
+
 ## Roadmap
 
 - [x] Landing page and clickable product prototype, ported from the design
@@ -124,7 +134,7 @@ Requires Node.js 20 or later.
 
 ## Status
 
-Early development. The free-check form on the landing page shows its confirmation in the browser only; it isn't wired to email or the backend yet.
+Early development. The landing page and prototype are live at www.wynsley.com while the software is tested. The free-check form on the landing page shows its confirmation in the browser only; it isn't wired to email or the backend yet.
 
 ## License
 
