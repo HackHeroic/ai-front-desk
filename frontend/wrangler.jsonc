@@ -1,0 +1,16 @@
+// Serves the static export (out/) on Cloudflare as the Worker "wynsley",
+// on wynsley.com and www.wynsley.com.
+// Deploy: npm run build && npx wrangler@4 deploy
+{
+  "name": "wynsley",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "wynsley.com", "custom_domain": true },
+    { "pattern": "www.wynsley.com", "custom_domain": true }
+  ]
+}
