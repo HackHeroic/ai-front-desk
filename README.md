@@ -55,9 +55,9 @@ How the port is put together:
 
 The plan the code follows lives in [`docs/`](docs/README.md):
 
-- [System design](docs/system-design.pdf): high-level and low-level design, sequence diagrams, the ER diagram and the engineering principles (74 diagrams).
-- [Product spec](docs/product-spec.pdf): the six modules and every V1 screen in detail.
-- [Design notes](docs/design-notes.pdf): sign-in and invites, rentals, rent and payments.
+- [System design](docs/system-design/README.md): high-level and low-level design, sequence diagrams, the ER diagrams and the engineering principles, with 74 diagrams that GitHub draws from their text, plus the 23 Nov update for rentals, payments and sign-in ([PDF](docs/system-design.pdf)).
+- [Product spec](docs/product-spec.md): the six modules and every V1 screen in detail ([PDF](docs/product-spec.pdf)).
+- [Design notes](docs/design-notes.md): notes that sharpen the screens, from sign-in and rent to the receipt and the monthly letter ([PDF](docs/design-notes.pdf)).
 
 ## Architecture
 
